@@ -2,4 +2,4 @@
 
 A Simple Flutter Project to play Dice
 
-![1](https://github.com/user-attachments/assets/19ccb11d-f74e-4252-8209-7d9653647b5d)
+![1](https://github.com/user-attachments/assets/0b9fc624-ea14-4249-aaf5-1a478306c6c8)
