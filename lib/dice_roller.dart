@@ -30,20 +30,20 @@ class _DiceRollerState extends State<DiceRoller> {
                 Image.asset(
                     dicePath, // using the String for dice image path
                     width: 200,
-                    fit: BoxFit.fitWidth, // this will maintain the height accoording to the width
+                    fit: BoxFit.fitWidth, // this will maintain the height according to the width
                 ),
                 
                 const SizedBox(height: 20),
                 
                 TextButton(
                     onPressed: () {
-                        // setState() reexecutes the build() function
+                        // setState() re-executes the build() function
                         setState(() {
-                            dicePath = myList[random.nextInt(myList.length)]; // randomly generating imaege path
+                            dicePath = myList[random.nextInt(myList.length)]; // randomly generating image path
                             // print(random.nextInt(5)); generates a random number from 0 to 4
                         });
                     },
-            
+                    
                     style: TextButton.styleFrom(
                         backgroundColor: const Color.fromARGB(255, 220, 20, 60), // Crimson Red
                         padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 45),
